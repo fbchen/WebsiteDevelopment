@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual Reality</title>
+    <style type="text/css">
+        @font-face { 
+            font-family: 'RalewayRegular';  
+            src: local('Raleway Regular'), 
+            local('Raleway-Regular'), 
+            url('Raleway-Regular.ttf'); 
+        }
+
+        @font-face { 
+            font-family: 'RobotoSlabRegular';  
+            src: local('Roboto Slab Regular'), 
+            local('RobotoSlab-Regular'), 
+            url('RobotoSlab-Regular.ttf'); 
+        }
+
+        body {
+            background:black;
+        }
+        img.background {
+            float: left;
+            width: 101%;
+            height: inherit;
+            position: absolute;
+            top: 3%;
+            z-index: -1;
+        }
+
+        .header {
+            top: 10px;
+            position: absolute;
+        }
+
+        .left {
+            left: 30px;
+        }
+
+        .right {
+            right: 30px;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        a {
+            font-family: RobotoSlabRegular;
+            font-size: 1.15em;
+            text-decoration: none;
+            margin-right:20px;
+            color: #ffffff;
+        }
+
+        .banner {
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            text-align: center;
+        }
+
+        #title {
+            font-family: RalewayRegular;
+            font-size: 5em;
+            color: white;
+        }
+
+        #subtitle {
+            font-family: RobotoSlabRegular;
+            font-size: 1.75em;
+            margin-top: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header left">
+        <ul>
+            <li><a href="###">Terms</a></li>
+            <li><a href="###">History</a></li>
+            <li><a href="###">Technology</a></li>
+            <li><a href="###">Application</a></li>
+        </ul>
+    </div>
+
+    <div class="header right">
+        <ul>
+            <li><a href="###">Abount Us</a></li>
+            <li><a href="###">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <span id="title">Virtual Reality</span>
+        <br/>
+        <span id="subtitle">Another Way to See the World</span>
+    </div>
+
+    <img class="background" src="background.jpg"/>
+</body>
+</html>
