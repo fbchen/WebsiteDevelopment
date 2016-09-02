@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VR History</title>
+	<style type="text/css">
+        @font-face { 
+            font-family: 'RalewayRegular';  
+            src: local('Raleway Regular'), 
+            local('Raleway-Regular'), 
+            url('Raleway-Regular.ttf'); 
+        }
+
+        @font-face { 
+            font-family: 'RobotoSlabRegular';  
+            src: local('Roboto Slab Regular'), 
+            local('RobotoSlab-Regular'), 
+            url('RobotoSlab-Regular.ttf'); 
+        }
+		body {
+			margin: 0px;
+		}
+
+		.header {
+			overflow: auto;
+			width: 100%;
+			height: inherit;
+			background-color: black;
+			padding-top: 10px;
+			padding-bottom: 15px;
+			padding-left: 5px;
+		}
+
+		.header .left {
+			position: relative;
+			float: left;
+		}
+
+		.header .right {
+			position: relative;
+			float: right;
+			margin-right: 25px;
+		}
+
+		ul>li {
+			display: inline-block;
+		}
+
+		ul>li>a {
+            font-family: RobotoSlabRegular;
+            font-size: 1.15em;
+            text-decoration: none;
+            margin-right:20px;
+			color: white;
+		}
+
+		a.selected {
+			border-top: 1px solid white;
+			border-bottom: 1px solid white;
+		}
+
+		.image_left_section, .image_right_section {
+
+		}
+
+		.image_left_section {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			overflow: auto;
+		}
+
+		.image_left_section img {
+			float: left;
+			width: 40%;
+			padding-left: 50px;
+		}
+
+		.image_left_section .textarea {
+			float: right;
+			width: 47%;
+			margin-right: 50px;
+			padding: 65px 0;
+		}
+
+		.textarea .content {
+            font-family: RobotoSlabRegular;
+			font-size: 1.25em;
+		}
+
+		.textarea .content b {
+            font-family: RalewayRegular;
+            font-size: 1.5em;
+		}
+
+		.textarea .title {
+			font-family: RalewayRegular;
+            font-size: 1.8em;
+		}
+
+		.image_right_section {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			overflow: auto;
+		}
+
+		.image_right_section img {
+			float: right;
+			width: 40%;
+			margin-right: 50px;
+		}
+
+		.image_right_section .textarea {
+			float: left;
+			width: 47%;
+			margin-left: 50px;
+			padding: 65px 0;
+		}
+
+		.image_back_section {
+			height: 400px;
+			position: relative;
+		}
+
+		.image_back_section .textarea {
+			color: white;
+			padding: 60px 100px ;
+			position: absolute;
+			z-index: 100;
+		}
+
+		.image_back_section img {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			z-index: -2;
+		}
+
+		.image_back_section .shadow {
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0,0,0,0.5);
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			position: absolute;
+			z-index: -1;
+		}
+
+		.text_section {
+			padding: 30px 100px;
+		}
+
+		.text_section .textarea .title {
+			font-size: 3em;
+		}
+
+		.text_section .title {
+			text-align: center;
+		}
+	
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<ul class="left">
+            <li><a href="###">Terms</a></li>
+            <li><a href="###" class="selected">History</a></li>
+            <li><a href="###">Technology</a></li>
+            <li><a href="###">Application</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="###">Abount Us</a></li>
+            <li><a href="###">Contact Us</a></li>
+        </ul>
+	</div>
+
+	<div class="text_section">
+		<div class="textarea">
+			<p class="title">History of Virtual Reality</p>
+			<p class="content"></p>
+		</div>
+	</div>
+
+	<div class="image_left_section">
+		<img src="./images/image1.jpeg" alt="image1" />
+		<div class="textarea">
+			<p class="content"><b>Virtual Reality</b> has beginnings that preceded the time that the concept was coined and formalised. In this detailed history of virtual reality we look at how technology has evolved and how key pioneers have paved the path for virtual reality as we know it today.</p>
+		</div>
+	</div>
+
+
+	<div class="image_back_section">
+		<div class="textarea">
+			<p class="title">Panoramic Paintings</p>
+			<p class="content">If we focus more strictly on the scope of virtual reality as a means of creating the illusion that we are present somewhere we are not, then the earliest attempt at virtual reality is surely the 360-degree murals (or panoramic paintings) from the nineteenth century. These paintings were intended to fill the viewer’s entire field of vision, making them feel present at some historical event or scene.</p>
+		</div>
+		<img src="./images/image2.jpeg" alt="image2" />
+		<div class="shadow"></div>
+	</div>
+
+	<div class="text_section">
+		<div class="textarea">
+			<p class="title">1838</p>
+			<p class="content"></p>
+		</div>
+	</div>
+
+	<div class="image_right_section">
+		<img src="./images/image3.jpeg" alt="image3"/>
+		<div class="textarea" style="padding: 0;">
+			<p class="title">Stereoscopic Photos</p>
+			<p class="content">In 1838 Charles Wheatstone's research demonstrated that the brain processes the different two-dimensional images from each eye into a single object of three dimensions. Viewing two side by side stereoscopic images or photos through a stereoscope gave the user a sense of depth and immersion. The later development of the popular View-Master stereoscope (patented 1939), was used for “virtual tourism”. The design principles of the Stereoscope is used today for the popular Google Cardboard and low budget VR head mounted displays for mobile phones.</p>
+		</div>
+	</div>
+
+</body>
+</html>
