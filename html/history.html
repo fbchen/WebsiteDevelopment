@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>VR History</title>
+	<meta charset="utf-8"/>
 	<style type="text/css">
         @font-face { 
             font-family: 'RalewayRegular';  
@@ -112,7 +113,6 @@
 			float: left;
 			width: 47%;
 			margin-left: 50px;
-			padding: 65px 0;
 		}
 
 		.image_back_section {
@@ -122,7 +122,7 @@
 
 		.image_back_section .textarea {
 			color: white;
-			padding: 60px 100px ;
+			padding: 60px 200px ;
 			position: absolute;
 			z-index: 100;
 		}
@@ -146,16 +146,36 @@
 			z-index: -1;
 		}
 
-		.text_section {
+		.title_section {
+            font-family: RalewayRegular;
+			text-align: center;
 			padding: 30px 100px;
-		}
-
-		.text_section .textarea .title {
 			font-size: 3em;
 		}
 
-		.text_section .title {
+		.text_section {
+			padding: 30px 100px;
 			text-align: center;
+		}
+
+		.text_section .textarea .title {
+			font-size: 1.8em;
+		}
+
+		#beginning {
+			padding: 65px 0;
+		}
+
+		#stereoscopic_photos {
+			padding: 0;
+		}
+
+		#link_trainer {
+			padding: 20px 0;
+		}
+
+		#science_fiction {
+			padding: 30px 0;
 		}
 	
 	</style>
@@ -175,16 +195,13 @@
         </ul>
 	</div>
 
-	<div class="text_section">
-		<div class="textarea">
-			<p class="title">History of Virtual Reality</p>
-			<p class="content"></p>
-		</div>
+	<div class="title_section">
+		<p>History of Virtual Reality</p>
 	</div>
 
 	<div class="image_left_section">
 		<img src="./images/image1.jpeg" alt="image1" />
-		<div class="textarea">
+		<div class="textarea" id="beginning">
 			<p class="content"><b>Virtual Reality</b> has beginnings that preceded the time that the concept was coined and formalised. In this detailed history of virtual reality we look at how technology has evolved and how key pioneers have paved the path for virtual reality as we know it today.</p>
 		</div>
 	</div>
@@ -199,19 +216,56 @@
 		<div class="shadow"></div>
 	</div>
 
-	<div class="text_section">
-		<div class="textarea">
-			<p class="title">1838</p>
-			<p class="content"></p>
-		</div>
+	<div class="title_section">
+		<p>1838</p>
 	</div>
 
 	<div class="image_right_section">
 		<img src="./images/image3.jpeg" alt="image3"/>
-		<div class="textarea" style="padding: 0;">
+		<div class="textarea" id="stereoscopic_photos">
 			<p class="title">Stereoscopic Photos</p>
-			<p class="content">In 1838 Charles Wheatstone's research demonstrated that the brain processes the different two-dimensional images from each eye into a single object of three dimensions. Viewing two side by side stereoscopic images or photos through a stereoscope gave the user a sense of depth and immersion. The later development of the popular View-Master stereoscope (patented 1939), was used for “virtual tourism”. The design principles of the Stereoscope is used today for the popular Google Cardboard and low budget VR head mounted displays for mobile phones.</p>
+			<p class="content">In 1838 Charles Wheatstone's research demonstrated that the brain processes the different two-dimensional images from each eye into a single object of three dimensions. Viewing two side by side stereoscopic images or photos through a stereoscope gave the user a sense of depth and immersion. The design principles of the Stereoscope is used today for the popular Google Cardboard and low budget VR head mounted displays for mobile phones.</p>
 		</div>
+	</div>
+
+	<div class="title_section">
+		<p>1929</p>
+	</div>
+
+	<div class="image_left_section">
+		<img src="./images/image8.jpeg" alt="image8" />
+		<div class="textarea" id="link_trainer">
+			<p class="title">Link Trainer : The First Flight Simulator</p>
+			<p class="content">In 1929 Edward Link created the “Link trainer” (patented 1931) probably the first example of a commercial flight simulator. It was controlled by motors that linked to the rudder and steering column to modify the pitch and roll. A small motor-driven device mimicked turbulence and disturbances. Such was the need for safer ways to train pilots that the US military bought six of these devices for $3500.</p>
+		</div>
+	</div>
+
+	<div class="image_right_section">
+		<img src="./images/image9.png" alt="image9"/>
+		<div class="textarea" id="science_fiction">
+			<p class="title">Science Fiction predicted VR</p>
+			<p class="content">In the 1930s a story by science fiction writer Stanley G. Weinbaum contains the idea of a pair of goggles that let the wearer experience a fictional world through holographics, smell, taste and touch. In hindsight the experience Weinbaum describes for those wearing the goggles are uncannily like the modern and emerging experience of virtual reality, making him a true visionary of the field.</p>
+		</div>
+	</div>
+
+	<div class="text_section">
+		<div class="textarea">
+			<p class="title">1969 – Artificial Reality</p>
+			<p class="content">In 1969 Myron Kruegere a virtual reality computer artist developed a series of experiences which he termed “artificial reality” in which he developed computer-generated environments that responded to the people in it. The projects named GLOWFLOW, METAPLAY, and PSYCHIC SPACE were progressions in his research which ultimately let to the development of VIDEOPLACE technology. This technology enabled people to communicate with each other in a responsive computer generated environment despite being miles apart.</p>
+		</div>
+	</div>
+
+	<div class="image_back_section">
+		<div class="textarea">
+			<p class="title">1993 – SEGA announce new VR glasses</p>
+			<p class="content">Sega announced the Sega VR headset for the Sega Genesis console in 1993 at the Consumer Electronics Show in 1993. The wrap-around protoype glasses had head tracking, stereo sound and LCD screens in the visor. Sega fully intended to release the product at a price point of about $200 at the time, or about $322 in 2015 money. However, technical development difficulties meant that the device would forever remain in the prototype phase despite having developed 4 games for this product.</p>
+		</div>
+		<img src="./images/image19.jpeg" alt="image19" />
+		<div class="shadow"></div>
+	</div>
+
+	<div class="title_section">
+		<p>Here Goes 21th Century</p>
 	</div>
 
 </body>
