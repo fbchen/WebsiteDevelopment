@@ -98,6 +98,7 @@
 		}
 
 		.image_right_section img {
+			
 			float: right;
 			width: 40%;
 			margin-right: 50px;
@@ -144,7 +145,7 @@
             font-family: RalewayRegular;
 			text-align: center;
 			padding: 30px 100px;
-			font-size: 2em;
+			font-size: 3em;
 		}
 
 		.text_section {
