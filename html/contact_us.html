@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>VR History</title>
+	<title>Contact Us</title>
 	<meta charset="utf-8"/>
 	<style type="text/css">
         @font-face { 
@@ -99,11 +99,16 @@
 		}
 
 		#submit {
+			margin-top: 30px;
 			font-family: RalewayRegular;
 			font-size: 1.5em;
 			padding: 10px 20px;
 			color: white;
 			background-color: #8bc34a;
+		}
+
+		#like_our_site {
+			margin-top: 20px;
 		}
 	</style>
 </head>
@@ -112,13 +117,13 @@
 	<div class="header">
 		<ul class="left">
             <li><a href="###">Terms</a></li>
-            <li><a href="###">History</a></li>
-            <li><a href="###">Technology</a></li>
-            <li><a href="###">Application</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="technology/technology.html">Technology</a></li>
+            <li><a href="application/military.html">Application</a></li>
         </ul>
         <ul class="right">
-            <li><a href="###">About Us</a></li>
-            <li><a href="###" class="selected">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact_us.html" class="selected">Contact Us</a></li>
         </ul>
 	</div>
 
@@ -127,6 +132,10 @@
 			<span>NAME<input class="form-control" type="text" name="name"/></span><br/>
 			<span>EMAIL<input class="form-control" type="text" name="email"/></span><br/>
 			<span>COMMENT<textarea class="form-control comment_area" type="text" name="comment"></textarea></span><br/>
+			<span>GENDER</span><br/>
+			<label for="male">Male<input type="radio" name="gender" value="male" id="male" checked/></label>
+			<label for="female">Female<input type="radio" name="gender" value="female" id="female"/></label><br/>
+			<label for="like_our_site"><input type="checkbox" name="like" id="like_our_site"/>Like Our Site</label><br/>
 			<input type="submit" name="SUBMIT" id="submit" value="SUBMIT"/>
 		</form>
 	</div>
