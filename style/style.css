@@ -36,11 +36,11 @@
 			margin-right: 25px;
 		}
 
-		ul>li {
+		.header ul>li {
 			display: inline-block;
 		}
 
-		ul>li>a {
+		.header ul>li>a {
             font-family: RobotoSlabRegular;
             font-size: 1.15em;
             text-decoration: none;
@@ -144,7 +144,7 @@
             font-family: RalewayRegular;
 			text-align: center;
 			padding: 30px 100px;
-			font-size: 3em;
+			font-size: 2em;
 		}
 
 		.text_section {
@@ -170,4 +170,8 @@
 
 		#science_fiction {
 			padding: 30px 0;
+		}
+
+		#military_uses {
+			padding-left: 30px;
 		}
