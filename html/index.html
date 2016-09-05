@@ -19,9 +19,10 @@
         }
 
         body {
+            margin: 0;
             background:black;
         }
-        img.background {
+        .background {
             float: left;
             width: 101%;
             height: inherit;
@@ -106,6 +107,8 @@
         <span id="subtitle">Another Way to See the World</span>
     </div>
 
-    <img class="background" src="../images/background.jpg" alt="background" />
+    <video class="background" autoplay autobuffer loop>
+        <source src="../videos/scene.mp4"  type="video/mp4"/>
+    </video>
 </body>
 </html>
