@@ -5,33 +5,17 @@
 	<meta charset="utf-8"/>
 	 <link rel="stylesheet" type="text/css" href="../../style/style.css">
     <style type="text/css">
-        .header_nav {
-            margin: 0;
-            background-color: #fffafa;
-        }
+    	#concept {
+    		margin-top: -50px;
+    	}
 
-            .header_nav ul > li {
-                display: inline-block;
-            }
+    	#lenses {
+    		margin-top: 50px;
+    	}
 
-                .header_nav ul > li > a {
-                    font-family: RobotoSlabRegular;
-                    font-size: 1.2em;
-                    text-decoration: none;
-                    color: black;
-                    margin-right: 130px;
-                }
-
-            .header_nav li > a.selected_nav {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            .header_nav li > a:hover {
-                background-color: #1f1e1e;
-                color: white;
-                font-weight: bold;
-            }
+    	#wide {
+    		margin-top: -30px;
+    	}
     </style>
 </head>
 <body>
@@ -48,9 +32,9 @@
             <li><a href="../contact_us.html">Contact Us</a></li>
         </ul>
     </div>
-    <div class="header_nav">
+    <div class="subnav">
         <ul>
-            <li><a href="basics.html"class="selected_nav">basic</a></li>
+            <li><a href="basics.html" class="selected">basic</a></li>
             <li><a href="Eye_tracking.html">Eye tracking</a></li>
             <li><a href="Head_tracking.html">Head tracking</a></li>
             <li><a href="Motion_tracking.html">Motion tracking</a></li>
@@ -61,11 +45,12 @@
 	</div>
 	<div class="image_left_section">
 		<img src="../../images/basic1.jpeg" alt="basic1">
-		<div class="textarea" >
-			<p class="content">VR headsets like Oculus Rift and PlayStation VR are often referred to as HMDs and all that means is that they are head mounted displays. Even with no audio or hand tracking, holding up Google Cardboard to place your smartphone's display in front of your face can be enough to get you half-immersed in a virtual world.
+		<div class="textarea" id="concept">
+			<p class="title">Concept</p>
+			<p class="content">VR headsets like Oculus Rift and PlayStation VR are often referred to as HMDs and all that means is that they are head mounted displays. Even with no audio or hand tracking, holding up Google Cardboard to place your smartphone's display in front of your face can be enough to get you half-immersed in a virtual world. The goal of the hardware is to create what appears to be a life size, 3D virtual environment without the boundaries we usually associate with TV or computer screens.
 			</p>
 			<p class="content">
-					The goal of the hardware is to create what appears to be a life size, 3D virtual environment without the boundaries we usually associate with TV or computer screens. So whichever way you look, the screen mounted to your face follows you. This is unlike AR which overlays graphics onto your view of the real world.
+					
 			</p>
 		</div>
 	</div>
@@ -75,15 +60,13 @@
 	<div class="image_right_section">
 		<img src="../../images/basic2.jpeg" alt="basic2">
 		<div class="textarea">
-			<p class="content">Video is sent from the console or computer to the headset via a HDMI cable in the case of headsets such as HTC's Vive and the Rift. For Google Cardboard,Google's upcoming Daydream headsets and the Samsung Gear VR, it's already on the smartphone slotted into the headset.
-			</p>
-			<p class="content">
-			VR headsets use either two feeds sent to one display or two LCD displays, one per eye. There are also lenses which are placed between your eyes and the pixels which is why the devices are often called goggles. In some instances, these can be adjusted to match the distance between your eyes which varies from person to person.
+			<p class="title">Video Feed</p>
+			<p class="content">Video is sent from the console or computer to the headset via a HDMI cable in the case of headsets such as HTC's Vive and the Rift. For Google Cardboard, Google's upcoming Daydream headsets and the Samsung Gear VR, it's already on the smartphone slotted into the headset. VR headsets use either two feeds sent to one display or two LCD displays, one per eye.
 			</p>
 		</div>
 	</div>
 	<div class="image_back_section">
-		<div class="textarea">
+		<div class="textarea" id="lenses">
 			<p class="content">
 				These lenses focus and reshape the picture for each eye and create a stereoscopic 3D image by angling the two 2D images to mimic how each of our two eyes views the world ever-so-slightly differently. Try closing one eye then the other to see individual objects dance about from side to side and you get the idea behind this.
 			</p>
@@ -94,21 +77,12 @@
 	
 	<div class="image_left_section">
 		<img src="../../images/basic4.jpeg" alt="basic4">
-		<div class="textarea">
+		<div class="textarea" id="wide">
+			<p class="title">Wider and Wider</p>
 			<p class="content">One important way VR headsets can increase immersion is to increase the field of view i.e. how wide the picture is. A 360 degree display would be too expensive and unnecessary. Most high-end headsets make do with 100 or 110 degree field of view which is wide enough to do the trick.
-			</p>
-			<p class="content">
-			And for the resulting picture to be at all convincing, a minimum frame rate of around 60 frames per second is needed to avoid stuttering or users feeling sick. The current crop of VR headsets go way beyond this - Oculus is capable of 90fps, for instance, Sony's PlayStation VR manages 120fps.
 			</p>
 		</div>
 	</div>
 	
-	<!--
-	<img src="../images/image28.jpeg" alt="image28"><br>
-	<img src="../images/image29.jpeg" alt="image29"><br>
-	<img src="../images/image30.jpeg" alt="image30"><br>
-	<img src="../images/image31.jpeg" alt="image31"><br>
-	<img src="../images/image32.jpeg" alt="image32"><br>
-	-->
 	</body>
 </html>
