@@ -24,10 +24,6 @@
             z-index: -1;
         }
         
-        .left {
-            left: 30px;
-        }
-
         .right {
             right: 30px;
         }
@@ -74,6 +70,13 @@
 			border-top: 1px solid white;
 			border-bottom: 1px solid white;
 			font-weight: bold;
+		}
+
+		#logo {
+			height: 40px;
+			float: left;
+			margin-top: 8px;
+			margin-left: 30px;
 		}
 
 		.banner {
