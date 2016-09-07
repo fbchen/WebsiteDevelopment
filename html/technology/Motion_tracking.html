@@ -5,33 +5,9 @@
 		<meta charset="utf-8"/>
 	 <link rel="stylesheet" type="text/css" href="../../style/style.css">
     <style type="text/css">
-        .header_nav {
-            margin: 0;
-            background-color: #fffafa;
+        #xbox {
+        	margin-top: 70px;
         }
-
-            .header_nav ul > li {
-                display: inline-block;
-            }
-
-                .header_nav ul > li > a {
-                    font-family: RobotoSlabRegular;
-                    font-size: 1.2em;
-                    text-decoration: none;
-                    color: black;
-                    margin-right: 130px;
-                }
-
-            .header_nav li > a.selected_nav {
-                font-size: 1.5em;
-                font-weight: bold;
-            }
-
-            .header_nav li > a:hover {
-                background-color: #1f1e1e;
-                color: white;
-                font-weight: bold;
-            }
     </style>
 </head>
 <body>
@@ -48,42 +24,51 @@
             <li><a href="../contact_us.html">Contact Us</a></li>
         </ul>
     </div>
-    <div class="header_nav">
+
+    <div class="subnav">
         <ul>
             <li><a href="basics.html">basic</a></li>
             <li><a href="Eye_tracking.html">Eye tracking</a></li>
             <li><a href="Head_tracking.html" >Head tracking</a></li>
-            <li><a href="Motion_tracking.html"class="selected_nav">Motion tracking</a></li>
+            <li><a href="Motion_tracking.html" class="selected">Motion tracking</a></li>
         </ul>
     </div>
+
 	<div class="title_section">
 		<p>Motion tracking</p>
 	</div>
+
 	<div class="image_left_section">
 		<img src="../../images/motion_tracking1.jpeg" alt="motion_tracking1">
 		<div class="textarea" >
-			<p class="content">Head tracking is one big advantage the as-yet unreleased premium headsets have over the likes of Cardboard. But the big VR players are still working out motion tracking. When you look down with a VR headset on the first thing you want to do is see your hands in a virtual space.
+			<p class="content"><b>Head Tracking</b> is one big advantage the as-yet unreleased premium headsets have over the likes of Cardboard. But the big VR players are still working out motion tracking. When you look down with a VR headset on the first thing you want to do is see your hands in a virtual space.
 			</p>
 		</div>
 	</div>
+
 	<div class="image_right_section">
 		<img src="../../images/motion_tracking2.jpg" alt="motion_tracking2">
 		<div class="textarea">
+			<p class="title">Leap Motion</p>
 			<p class="content">For a while, we've seen the Leap Motion accessory - which uses an infrared sensor to track hand movements - strapped to the front of Oculus dev kits. We've also tried a few experiments with Kinect 2 cameras tracking our flailing bodies. But now we have exciting input options from Oculus, Valve and Sony.
 			</p>
 		</div>
 	</div>
+
 	<div class="image_back_section">
 		<div class="textarea">
+			<p class="title">Oculus Touch</p>
 			<p class="content">Oculus Touch is a set of wireless controllers, designed to make you feel like you're using your own hands in VR. You grab each controller and use buttons, thumbsticks and triggers during VR games. So for instance, to shoot a gun you squeeze on the hand trigger. There is also a matrix of sensors on each controller to detect gestures such as pointing and waving.
 			</p>
 		</div>
 		<img src="../../images/motion_tracking3.jpg" alt="motion_tracking3" />
 		<div class="shadow"></div>
 	</div>
+
 	<div class="title_section">
 		<p>Headset head-to-head: HTC Vive versus Oculus Rift</p>
 	</div>
+
 	<div class="image_left_section">
 		<img src="../../images/motion_tracking4.png" alt="motion_tracking4">
 		<div class="textarea" >
@@ -91,9 +76,10 @@
 			</p>
 		</div>
 	</div>
+
 	<div class="image_right_section">
 		<img src="../../images/motion_tracking5.jpg" alt="motion_tracking5">
-		<div class="textarea" >
+		<div class="textarea" id="xbox">
 			<p class="content">
 			Other input methods can include anything from hooking an Xbox controller or joystick up to your PC, voice controls, smart gloves and treadmills such as the Virtuix Omni, which allow you to simulate walking around a VR environment with clever in-game redirections.
 			</p>
