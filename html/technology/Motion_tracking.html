@@ -1,24 +1,61 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>Motion tracking</title>
 		<meta charset="utf-8"/>
 	 <link rel="stylesheet" type="text/css" href="../../style/style.css">
+    <style type="text/css">
+        .header_nav {
+            margin: 0;
+            background-color: #fffafa;
+        }
+
+            .header_nav ul > li {
+                display: inline-block;
+            }
+
+                .header_nav ul > li > a {
+                    font-family: RobotoSlabRegular;
+                    font-size: 1.2em;
+                    text-decoration: none;
+                    color: black;
+                    margin-right: 130px;
+                }
+
+            .header_nav li > a.selected_nav {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+
+            .header_nav li > a:hover {
+                background-color: #1f1e1e;
+                color: white;
+                font-weight: bold;
+            }
+    </style>
 </head>
 <body>
-	<div class="header">
-		<a href="../index.html"><img src="../../images/logo.png" alt="logo" id="logo"></a>
-		<ul class="left">
-            <li><a href="basics.html" >The Basics</a></li>
-            <li><a href="Eye_tracking.html" >Eye tracking</a></li>
-            <li><a href="Head_tracking.html" >Head tracking</a></li>
-            <li><a href="Motion_tracking.html" class="selected">Motion tracking</a></li>
+    <div class="header">
+        <a href="../index.html"><img src="../../images/logo.png" alt="logo" id="logo"></a>
+        <ul class="left">
+            <li><a href="../terms.html">Terms</a></li>
+            <li><a href="../history.html">History</a></li>
+            <li><a href="technology.html" class="selected">Technology</a></li>
+            <li><a href="../application/military.html">Application</a></li>
         </ul>
         <ul class="right">
-            <li><a href="###">About Us</a></li>
-            <li><a href="###">Contact Us</a></li>
+            <li><a href="../aboutus.html">About Us</a></li>
+            <li><a href="../contact_us.html">Contact Us</a></li>
         </ul>
-	</div>
+    </div>
+    <div class="header_nav">
+        <ul>
+            <li><a href="basics.html">basic</a></li>
+            <li><a href="Eye_tracking.html">Eye tracking</a></li>
+            <li><a href="Head_tracking.html" >Head tracking</a></li>
+            <li><a href="Motion_tracking.html"class="selected_nav">Motion tracking</a></li>
+        </ul>
+    </div>
 	<div class="title_section">
 		<p>Motion tracking</p>
 	</div>
