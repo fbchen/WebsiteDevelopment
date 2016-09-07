@@ -72,6 +72,43 @@
 			font-weight: bold;
 		}
 
+        .subnav {
+            overflow: auto;
+            width: 100%;
+            height: inherit;
+            background-color: #eeeeee;
+            position: relative;
+            float: left;
+            margin-left: 0;
+            padding-left: 0px;
+        }
+
+        .subnav ul {
+            padding-left: 270px;
+        }
+
+        .subnav ul>li {
+            display: inline-block;
+            
+        }
+
+        .subnav ul>li>a {
+            font-family: RobotoSlabRegular;
+            font-size: 1em;
+            text-decoration: none;
+            margin-right: 20px;
+            color: black;
+        }
+
+        .subnav li>a.selected {
+            border-bottom: 1px solid black;
+        }
+
+        .subnav li>a:hover {
+            border-bottom: 1px solid black;
+            font-weight: bold;
+        }
+
 		#logo {
 			height: 40px;
 			float: left;
