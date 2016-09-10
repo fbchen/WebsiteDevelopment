@@ -1,3 +1,7 @@
+/* ==========全局CSS copyright 2016 抱着抱着抱着我的小鲤鱼的我的我的我=========== */
+
+/* ==============以下为基本规则=============== */
+
 @font-face { 
     font-family: 'RalewayRegular';  
     src: local('Raleway Regular'), 
@@ -11,6 +15,7 @@
     local('RobotoSlab-Regular'), 
     url('RobotoSlab-Regular.ttf'); 
 }
+
 body {
 	margin: 0px;
 }
@@ -36,36 +41,39 @@ p {
 	;
 }
 
+
+/* ==============以下为导航栏规则=============== */
+
 .right {
     right: 30px;
 }
 
-.header {
+#header {
 	overflow: auto;
 	width: 100%;
 	height: inherit;
 	background-color: black;
 	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	padding-left: 5px;
 }
 
-.header .left {
+#header  #left {
 	position: relative;
 	float: left;
 }
 
-.header .right {
+#header  #right {
 	position: relative;
 	float: right;
 	margin-right: 25px;
 }
 
-.header ul>li {
+#header ul>li {
 	display: inline-block;
 }
 
-.header ul>li>a {
+#header ul>li>a {
     font-family: RobotoSlabRegular;
     font-size: 1.15em;
     text-decoration: none;
@@ -73,18 +81,18 @@ p {
 	color: white;
 }
 
-.header li>a.selected {
+#header li>a.selected {
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 }
 
-.header li>a:hover {
+#header li>a:hover {
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 	//font-weight: bold;
 }
 
-.subnav {
+#subnav {
     overflow: auto;
     width: 100%;
     height: inherit;
@@ -95,11 +103,11 @@ p {
     padding-left: 0px;
 }
 
-.subnav ul>li {
+#subnav ul>li {
     display: inline-block;
 }
 
-.subnav ul>li>a {
+#subnav ul>li>a {
     font-family: RobotoSlabRegular;
     font-size: 1em;
     text-decoration: none;
@@ -107,11 +115,11 @@ p {
     color: black;
 }
 
-.subnav li>a.selected {
+#subnav li>a.selected {
     border-bottom: 1px solid black;
 }
 
-.subnav li>a:hover {
+#subnav li>a:hover {
     border-bottom: 1px solid black;
     //font-weight: bold;
     
@@ -124,12 +132,7 @@ p {
 	margin-left: 30px;
 }
 
-.banner {
-    position: absolute;
-    bottom: 10%;
-    width: 100%;
-    text-align: center;
-}
+/* ==============以下为表单规则=============== */
 
 .contact_input {
 	margin: 50px 100px;
@@ -163,6 +166,10 @@ p {
 	width: 50%; 
 	height: 100px; 
 }
+/* ==============以下为内容区规则=============== */
+
+/* ===以下为内容->图片在左规则===*/
+
 
 .image_left_section, .image_right_section {
 
@@ -201,6 +208,7 @@ p {
 	font-family: RalewayRegular;
     font-size: 1.8em;
 }
+/* ===以下为内容->图片在右规则===*/
 
 .image_right_section {
 	padding-top: 50px;
@@ -220,6 +228,7 @@ p {
 	width: 47%;
 	margin-left: 50px;
 }
+/* ===以下为内容->图片在后规则===*/
 
 .image_back_section {
 	height: 400px;
@@ -251,6 +260,7 @@ p {
 	position: absolute;
 	z-index: -1;
 }
+/* ==============以下为标题区============== */
 
 .title_section {
     font-family: RalewayRegular;
@@ -259,6 +269,14 @@ p {
 	font-size: 3em;
 }
 
+.banner {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+/* ==============以下为文本区============== */
 .text_section {
 	padding: 30px 100px;
 	text-align: center;
