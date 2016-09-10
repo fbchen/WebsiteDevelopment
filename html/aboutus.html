@@ -3,6 +3,64 @@
       <title>About Us</title>
       <meta charset="utf-8"/>
       <link rel="stylesheet" type="text/css" href="../style/style.css">
+      <style type="text/css">
+            .person_left {
+                  width: 100%;
+                  min-height: 600px;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: left;
+                  border-bottom: 5px dashed #000;
+            }
+
+            .person_left .text {
+                  padding-top: 120px;
+                  margin-left: 50%;
+                  margin-right: 10%;
+            }
+
+            .person_right {
+                  width: 100%;
+                  min-height: 600px;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: right;
+                  border-bottom: 5px dashed #000;
+            }
+            
+            .person_right .text {
+                  padding-top: 120px;
+                  margin-left: 10%;
+                  margin-right: 50%;
+            }
+
+            .text .name {
+                  font-size: 3em;
+                  font-family: RalewayRegular;
+            }
+
+            .text .desc {
+                  padding-top: 20px;
+                  font-size: 1.25em;
+                  font-family: RobotoSlabRegular;
+            }
+
+            #cheng {
+                  background-image: url(../images/chengdazhi.jpeg);
+            }
+
+            #wang {
+                  background-image: url(../images/wangyuanwei.jpeg);
+            }
+
+            #li {
+                  background-image: url(../images/lidong.jpeg);
+            }
+
+            #guan {
+                  background-image: url(../images/guanweiran.jpeg);
+            }
+      </style>
 </head>
 <body>
 
@@ -19,33 +77,44 @@
                   <li><a href="contact_us.html">Contact Us</a></li>
             </ul>
       </div>
-      
-      <div class="W">
-            <img src="../images/wang.jpg" alt="wang" width="100px"  height="100px"/>
-            <p>Name: Wang Yuanwei</p>
-            <p>Title:project manager, programmer and Web Editor</p>
-            <p>Cheng's frined.</p>
+
+      <div class="person_right" id="wang">
+            <div class="text">
+                  <h1 class="name">Roger Wang</h1>
+                  <p class="desc">
+                        Sophomore of Software Engineering in BIT, familiar with the spelling of C/C++/C#/Java/PHP/Python/SQL/Ruby. Can easily install or uninstall Photoshop/IIIustator/Dreamwaver/CAD/3DMAX/Visual Studio. Loves poker, hates chess. Loves ping-pang, hates soccer. Want to design a game one day, playing games now :)
+                  </p>
+            </div>
       </div>
 
-      <div class="C">
-            <img src="../images/cheng.jpg" alt="cheng" width="100px"  height="100px"/>
-            <p>Name: Cheng Dazhi</p>
-            <p>Title:CTO,programmer and Web Editor</p>
-            <p>Dazhi Cheng, Android developer. Has published multiple apps with over 10,000 downloads. Blogger, over 20,000 visits daily. Author of Android librarys with over 1,000 stars on GitHub. Has Received job invitations from companys like Cheetah Mobile, Flipboard and Meizu Technology, once worked at Flipboard. Loves body-building & guitar, not kick-ass. Likes Chinese folk music & Bossa Nova, not punk. Once bald, wants long hair.</p>
+      <div class="person_left" id="guan">
+            <div class="text">
+                  <h1 class="name">Carol Guan</h1>
+                  <p class="desc">
+                        Sophomore programmer, knows little about website development. Joined this team and met some masters. During this period of time, learned a lot about html and css. Will become a master someday.
+                  </p>
+            </div>
       </div>
 
-      <div class="L">
-            <img src="../images/li.jpg" alt="li" width="100px"  height="100px"/>
-            <p>Name: Li Dong</p>
-            <p>Title:art designer, video producer and Web Editor</p>
-            <p>Also Cheng's friend</p>
+
+      <div class="person_right" id="li">
+            <div class="text">
+                  <h1 class="name">Victor Li</h1>
+                  <p class="desc">
+                        A college student who majors in software engineering. Also like books and table tennis. Knows little about website development, trying his best to learn more.
+                  </p>
+            </div>
       </div>
 
-      <div class="G">
-            <img src="../images/guan.jpg" alt="guan" width="100px" height="100px"/>
-            <p>Name: Guan Weiran</p>
-            <p>Title:CIO, test engineer and Web Editor</p>
-            <p>Also Cheng's friend</p>
+
+      <div class="person_left" id="cheng">
+            <div class="text">
+                  <h1 class="name">Dominic Cheng</h1>
+                  <p class="desc">
+                        As an old Chinese saying goes: people go up, water go down. He's that water.
+                  </p>
+            </div>
       </div>
+
 </body>
 <html>
