@@ -4,6 +4,7 @@
 	<title>收到回复</title>
 	<meta charset="utf-8"/>
 	<meta http-equiv="refresh" content="3; url=index.html" />
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
 	<script type="text/javascript">
 		function GetQueryString(name) {
 		     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
@@ -15,11 +16,30 @@
 		var email = GetQueryString("email");
 		var comment = GetQueryString("comment");
 	</script>
+	<style type="text/css">
+		body {
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
+	<div id="header">
+		<a href="index.html"><img src="../images/logo.png" alt="logo" id="logo"></a>
+		<ul id="left">
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="technology/basics.html">Technology</a></li>
+            <li><a href="application/military.html">Application</a></li>
+        </ul>
+        <ul id="right">
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+	</div>
 	
-	<p id="content"></p>
-	<p>Redirecting to <a href="index.html">Home Page</a> in 3 seconds</p>
+	<p id="content" style="font-family: RobotoSlabRegular;font-size: 1.5em; margin-top: 30px;"></p>
+	<p style="font-family: RobotoSlabRegular;font-size: 1.5em;">Redirecting to <a href="index.html">Home Page</a> in 3 seconds</p>
+
 	<script type="text/javascript">
 		document.getElementById("content").innerText = "Hello " + name + ", we have received your comment (" + comment + ") successfully."
 	</script>
